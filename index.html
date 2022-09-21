@@ -7,28 +7,38 @@
     <title>Learning Tailwind Css</title>
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
-  <body class="h-screen flex items-center justify-center bg-gray-100">
-    <div
-      class="max-w-sm mx-auto p-8 bg-white rounded-xl shadow-md space-y-2 sm:flex sm:items-center sm:py-4 sm:space-y-0 sm:space-x-6"
-    >
-      <img
-        src="./image/shipon.jpg"
-        class="h-24 mx-auto rounded-full ring-4 rign-green-400 sm:flex-shrink-0 sm:mx-0;"
-        alt=""
-      />
-      <div class="text-center space-y-2">
-        <div class="space-y-0.5">
-          <p class="text-lg text-black font-semibold space-y-1">
-            Project Tutorial
-          </p>
-          <p class="text-gray-500 font-medium space-y-1">Youtube Channel</p>
-        </div>
-        <button
-          class="px-4 py-1 border border-purple-200 rounded-full text-sm text-purple-600 font-semibold"
+  <body class="bg-gray-100 dark:bg-gray-900">
+    <section class="flex justify-center items-center h-screen">
+      <div
+        class="max-w-sm mx-auto p-8 bg-white rounded-xl shadow-md space-y-2 sm:flex sm:items-center sm:py-4 sm:space-y-0 sm:space-x-6 dark:bg-gray-800 sm:dark:hover:bg-gray-700 duration-500"
+      >
+        <div
+          class="w-32 h-32 overflow-hidden rounded-full max-w-sm mx-auto ring-4 ring-green-400 sm:flex-shrink-0 sm:mx-0"
         >
-          Visit now
-        </button>
+          <img
+            src="./image/shipon.jpg"
+            class="w-full transform hover:scale-105 duration-500"
+            alt=""
+          />
+        </div>
+        <div class="text-center space-y-2">
+          <div class="space-y-0.5">
+            <p
+              class="text-lg text-black font-semibold space-y-1 dark:text-gray-300"
+            >
+              Project Tutorial
+            </p>
+            <p class="text-gray-500 font-medium space-y-1 dark:text-gray-400">
+              Youtube Channel
+            </p>
+          </div>
+          <button
+            class="px-4 py-1 border border-purple-300 rounded-full text-sm text-purple-600 font-semibold hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 duration-500 dark:text-purple-400 dark:focus:ring-offset-gray-800"
+          >
+            Visit Now
+          </button>
+        </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
